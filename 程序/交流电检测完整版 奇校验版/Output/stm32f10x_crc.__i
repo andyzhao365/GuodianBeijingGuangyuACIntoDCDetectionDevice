@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I..\CMSIS -I..\USER -I..\FWlib\inc -I..\FWlib\src -I..\system\rtc -I..\system\delay -I..\HARDWARE\12864 -I..\HARDWARE\ADC -I..\system\TIME2 -I..\HARDWARE\key -I..\HARDWARE\eeprom -I..\HARDWARE\Operating -I..\HARDWARE\show -I..\HARDWARE\CRC8_16 -I..\system\sys -I..\HARDWARE\read_write_flash -I..\HARDWARE\rs485 -I..\HARDWARE\usart1 
+-I d:\Keil\ARM\RV31\INC 
+-I d:\Keil\ARM\CMSIS\Include 
+-I d:\Keil\ARM\Inc\ST\STM32F10x 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "..\Output\stm32f10x_crc.o" --omf_browse "..\Output\stm32f10x_crc.crf" --depend "..\Output\stm32f10x_crc.d" "..\FWlib\src\stm32f10x_crc.c"
